@@ -19,7 +19,7 @@
                 self.foot = 'left_left'
                 self.frame_index = 0
                 self.last_update = pygame.time.get_ticks()
-* load_images
+
     def load_images(self):
         # 왼쪽 방향 이미지들
         self.walk_frames_l['left_left'] = []
