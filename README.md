@@ -1,11 +1,11 @@
 # final project
 
 # class Alros
-class Alros(pygame.sprite.Sprite):
-    def __init__(self):
-        pygame.sprite.Sprite.__init__(self)
-        self.walk_frames_l = {}
-        self.walk_frames_r = {}
+        class Alros(pygame.sprite.Sprite):
+            def __init__(self):
+                pygame.sprite.Sprite.__init__(self)
+                self.walk_frames_l = {}
+                self.walk_frames_r = {}
 
         self.load_images()
         self.image_orig = alros_img
