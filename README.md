@@ -6,21 +6,20 @@
                 pygame.sprite.Sprite.__init__(self)
                 self.walk_frames_l = {}
                 self.walk_frames_r = {}
+                self.load_images()
+                self.image_orig = alros_img
+                self.image_orig.set_colorkey(BLACK)
+                self.image = self.image_orig.copy()
 
-        self.load_images()
-        self.image_orig = alros_img
-        self.image_orig.set_colorkey(BLACK)
-        self.image = self.image_orig.copy()
+                self.rect = self.image.get_rect()
+                self.rect.x = (WIDTH-self.rect.width)//2 + self.rect.width
+                self.rect.y = 400
 
-        self.rect = self.image.get_rect()
-        self.rect.x = (WIDTH-self.rect.width)//2 + self.rect.width
-        self.rect.y = 400
-
-        self.direction = 'left'
-        self.foot = 'left_left'
-        self.frame_index = 0
-        self.last_update = pygame.time.get_ticks()
-        
+                self.direction = 'left'
+                self.foot = 'left_left'
+                self.frame_index = 0
+                self.last_update = pygame.time.get_ticks()
+* load_images
     def load_images(self):
         # 왼쪽 방향 이미지들
         self.walk_frames_l['left_left'] = []
