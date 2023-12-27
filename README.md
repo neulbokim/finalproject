@@ -1,8 +1,14 @@
 # INFINITE LOYOLA STAIRS
-수많은 계단을 올라가야 도착할 수 있는 서강대학교 로욜라도서관!  
-<엔플라이 스튜디오>의 <<무한의 계단>> 게임을 모티브로 하여서,  
+수많은 계단을 올라가야 도착할 수 있는 **서강대학교 로욜라도서관**!  
+<엔플라이 스튜디오>의 "무한의 계단" 게임을 모티브로 하여서,  
 서강대학교 후문 쪽 J관에서부터 D관을 거쳐 로욜라 도서관까지 가는 길을 그려냈습니다.  
-과연 알로스는 로욜라 도서관까지 성공적으로 도착해 공부하게 될 수 있을까요?!
+과연 **알로스**는 로욜라 도서관까지 성공적으로 도착해 공부하게 될 수 있을까요?!
+
+**Sogang University Loyola Library** can be reached only by climbing many stairs!  
+With the motif of "INFINITE STAIRS" game by <N.Fly Studio>,  
+I drew a path from Building J at the back entrance of Sogang University through Building D to Loyola Library.  
+Will **Allos** be able to successfully reach the Loyola Library and study?!  
+
 
 ## 개요
 - 과목명: [MAS2011] Introduction to Visual Media Programming 
@@ -49,8 +55,13 @@
 
 ### 게임 플레이 방식
 
-|이동 방향|왼쪽(left)|오른쪽(right)|
+|이동 방향|방향 전환 X|방향 전환 O|
 |---|---|---|
 |키보드|**SPACE bar**|**Slash key**|
 
-###
+- 스페이스 키를 누르면 기존의 방향대로 계단을 올라갑니다.
+- 슬래시 키를 누르면 기존의 반대 방향으로 계단을 올라갑니다.
+
+
+##
+그럼 재미있게 플레이 해주세요! :)
