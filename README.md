@@ -1,12 +1,8 @@
-# Infinite Loyola Stairs
-수많은 계단을 올라가야 도착할 수 있는 서강대학교 로욜라도서관!
-<엔플라이 스튜디오>의 <<무한의 계단>> 게임을 모티브로 하여서,
-서강대학교 후문 쪽 J관에서부터 D관을 거쳐 로욜라 도서관까지 가는 길을 그려냈습니다.
+# INFINITE LOYOLA STAIRS
+수많은 계단을 올라가야 도착할 수 있는 서강대학교 로욜라도서관!  
+<엔플라이 스튜디오>의 <<무한의 계단>> 게임을 모티브로 하여서,  
+서강대학교 후문 쪽 J관에서부터 D관을 거쳐 로욜라 도서관까지 가는 길을 그려냈습니다.  
 과연 알로스는 로욜라 도서관까지 성공적으로 도착해 공부하게 될 수 있을까요?!
-
-## 목차
-- [개요] (#개요)
-
 
 ## 개요
 - 프로젝트 이름: Infinite Loyola Stairs
@@ -16,7 +12,10 @@
 
 ## 게임 설명
 
-
+|초기 화면|게임 시작|게임 진행 중|게임 오버|
+|---|---|---|---|
+|<img src = "./readme/start.jpg" width = "200"/>|<img src = "./readme/img1.jpg" width = "200"/>|<img src = "./readme/img2.jpg" width = "200"/>|<img src = "./readme/gameover.jpg" width = "200"/>|
+|---|---|---|
 
 # 1. class Alros
         class Alros(pygame.sprite.Sprite):
