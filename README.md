@@ -7,7 +7,7 @@
 **Sogang University Loyola Library** can be reached only by climbing many stairs!  
 With the motif of "INFINITE STAIRS" game by <N.Fly Studio>,  
 I drew a path from Building J at the back entrance of Sogang University through Building D to Loyola Library.  
-Will **Allos** be able to successfully reach the Loyola Library and study?!  
+Will **Alros** be able to successfully reach the Loyola Library and study?!  
 
 
 ## 개요
