@@ -5,7 +5,8 @@
 과연 알로스는 로욜라 도서관까지 성공적으로 도착해 공부하게 될 수 있을까요?!
 
 ## 개요
-- 프로젝트 이름: Infinite Loyola Stairs
+- 과목명: [MAS2011] Introduction to Visual Media Programming 
+- 프로젝트 이름: INFINITE LOYOLA STAIRS
 - 프로젝트 지속 기간: 2023.11.17 ~ 2023.12.27
 - 개발 언어: Python
 - 제작자: 서강대학교 국어국문학과 20220042 김현서
@@ -18,22 +19,38 @@
 |---|---|
 |<img src = "./readme/alros.png" width = "200"/>|<img src = "./readme/alros_start.png" width = "200"/>|
 
-- 메인 캐릭터: 알로스 (서강대학교 대표 캐릭터)
-  
+- 메인 캐릭터: **알로스** (서강대학교 대표 캐릭터)  
+  2023년 리뉴얼된 서강대학교의 캐릭터 **알로스**를 메인 캐릭터로 하였습니다.
 
 ### 배경
 |1. J관-TE관|2. D관|3. 로욜라 도서관|
-|---|---|---|
+|:---:|:---:|:---:|
 |<img src = "./readme/J-TE.webp" width = "350"/>|<img src = "./readme/D.webp" width = "350"/>|<img src = "./readme/Manresa.webp" width = "350"/>|
 |<img src = "./img/stair_level_1.png" width = "150"/>|<img src = "./img/stair_level_2.png" width = "150"/>|<img src = "./img/stair_level_3.png" width = "150"/>|
+|<img src = "./readme/level1.jpg" width = "350"/>|<img src = "./readme/level2.jpg" width = "350"/>|<img src = "./readme/level3.jpg" width = "350"/>|
 
-
+- Level 1: **J-TE 사이** 계단
+- Level 2: **D관** 계단
+- Level 3: **로욜라 도서관** 계단
 
 
 ### 게임 화면
-|초기 화면|게임 시작|게임 진행 중|게임 오버|
-|---|---|---|---|
-|<img src = "./readme/start.jpg" width = "200"/>|<img src = "./readme/img1.jpg" width = "200"/>|<img src = "./readme/img2.jpg" width = "200"/>|<img src = "./readme/gameover.jpg" width = "200"/>|
+|초기 화면|게임 시작|게임 진행 중|게임 오버|게임 성공|
+|---|---|---|---|---|
+|<img src = "./readme/start.jpg" width = "200"/>|<img src = "./readme/img1.jpg" width = "200"/>|<img src = "./readme/img2.jpg" width = "200"/>|<img src = "./readme/gameover.jpg" width = "200"/>|<img src = "./readme/success.jpg" width = "200"/>|
 
-## 게임 플레이 방식
-- 캐릭터 이동 방법
+
+- 초기 화면에서 키보드 키 중 아무거나 누르면 게임이 시작됩니다.
+- 게임 시작 화면에서 계단 방향에 알맞게 계단을 올라가면, HP가 닳기 시작합니다.
+- 오른 계단 수가 많아질수록 HP의 닳는 속도가 빨라집니다.
+- HP가 모두 닳거나, 주어진 계단 방향의 반대로 계단을 올라가면, 알로스가 화면 아래로 떨어지고 게임 오버 됩니다.
+- J-TE, D, 로욜라 도서관의 계단을 모두 오르면 성공합니다.
+
+
+### 게임 플레이 방식
+
+|이동 방향|왼쪽(left)|오른쪽(right)|
+|---|---|---|
+|키보드|**SPACE bar**|**Slash key**|
+
+###
